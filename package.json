@@ -1,0 +1,31 @@
+{
+  "name": "pasmo-gigi-assets",
+  "version": "1.0.0",
+  "description": "Assets for PASMO GIGI App.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uris77/pasmo-gigi-assets.git"
+  },
+  "author": "Roberto Guerra",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/uris77/pasmo-gigi-assets/issues"
+  },
+  "homepage": "https://github.com/uris77/pasmo-gigi-assets#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0"
+  }
+}
